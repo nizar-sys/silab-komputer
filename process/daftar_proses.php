@@ -8,7 +8,7 @@ $pass = $sandi;
 if ($Lid == 4) {    // Untuk Dosen
 
     $target_dir = "../images/dosen/";
-    $fileName = basename($_FILES["fileToUpload"]["name"]) . time();
+    $fileName = time() . basename($_FILES["fileToUpload"]["name"]);
     $target_file = $target_dir . $fileName;
     $nama_file = "images/dosen/$fileName";
     $uploadOk = 1;
@@ -40,7 +40,7 @@ if ($Lid == 4) {    // Untuk Dosen
 if ($Lid == 9) {     // Untuk Mahasiswa
 
     $target_dir = "../images/mahasiswa/";
-    $fileName = basename($_FILES["fileToUpload"]["name"]) . time();
+    $fileName = time() . basename($_FILES["fileToUpload"]["name"]);
     $target_file = $target_dir . $fileName;
     $nama_file = "images/mahasiswa/$fileName";
     $uploadOk = 1;
