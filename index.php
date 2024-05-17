@@ -216,74 +216,76 @@ session_start();
         </div><!--/.container-->
     </section><!--/#feature-->
 
-    <section id="login-page">
-        <div class="container">
-            <div class="center wow fadeInDown align-items-center">
-                <h2>Login</h2>
-                <p class="lead">
-                    Silakan login terlebih dahulu untuk mengakses fitur-fitur yang ada
-                </p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" data-toggle="modal" data-target="#LoginModal">
-                        <div class="media services-wrap wow fadeInDown">
-                            <div class="pull-left">
-                                <img class="img-responsive" width="80" src="./images/login-mahasiswa.png">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Mahasiswa</h3>
-                                <p>Login <br> Mahasiswa</p>
-                            </div>
-                        </div>
-                    </a>
+    <?php if (!isset($_SESSION['username'])) : ?>
+        <section id="login-page">
+            <div class="container">
+                <div class="center wow fadeInDown align-items-center">
+                    <h2>Login</h2>
+                    <p class="lead">
+                        Silakan login terlebih dahulu untuk mengakses fitur-fitur yang ada
+                    </p>
                 </div>
 
-                <div class="col-sm-6 col-md-3">
-                    <a href="./admin/">
-                        <div class="media services-wrap wow fadeInDown">
-                            <div class="pull-left">
-                                <img class="img-responsive" src="images/services/services2.png">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Admin</h3>
-                                <p>Login <br> Admin</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="./admin/">
-                        <div class="media services-wrap wow fadeInDown">
-                            <div class="pull-left">
-                                <img class="img-responsive" width="80" src="images/login-dosen.jpg">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Dosen</h3>
-                                <p>Login <br> Dosen</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                <div class="row">
 
-                <div class="col-sm-6 col-md-3">
-                    <a href="./admin/">
-                        <div class="media services-wrap wow fadeInDown">
-                            <div class="pull-left">
-                                <img class="img-responsive" width="80" src="images/login-aslab.jpg">
+                    <div class="col-sm-6 col-md-3">
+                        <a href="#" data-toggle="modal" data-target="#LoginModal">
+                            <div class="media services-wrap wow fadeInDown">
+                                <div class="pull-left">
+                                    <img class="img-responsive" width="80" src="./images/login-mahasiswa.png">
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Mahasiswa</h3>
+                                    <p>Login <br> Mahasiswa</p>
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Aslab</h3>
-                                <p>Login Asisten <br> Laboratorium</p>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <a href="./admin/">
+                            <div class="media services-wrap wow fadeInDown">
+                                <div class="pull-left">
+                                    <img class="img-responsive" src="images/services/services2.png">
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Admin</h3>
+                                    <p>Login <br> Admin</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a href="./admin/">
+                            <div class="media services-wrap wow fadeInDown">
+                                <div class="pull-left">
+                                    <img class="img-responsive" width="80" src="images/login-dosen.jpg">
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Dosen</h3>
+                                    <p>Login <br> Dosen</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <a href="./admin/">
+                            <div class="media services-wrap wow fadeInDown">
+                                <div class="pull-left">
+                                    <img class="img-responsive" width="80" src="images/login-aslab.jpg">
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Aslab</h3>
+                                    <p>Login Asisten <br> Laboratorium</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div><!--/.container-->
-    </section>
+            </div><!--/.container-->
+        </section>
+    <?php endif; ?>
 
     <section id="recent-works">
         <div class="container">
