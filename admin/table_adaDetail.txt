@@ -1,0 +1,27 @@
+ <tbody>
+                                            <?php
+                                            include "koneksi/koneksi.php";
+                                            $tampil = mysqli_query(mysqli_connect('localhost', 'root', '', 'inventaris'),"select * from barang order by serial_num");
+                                            while ($r = mysqli_fetch_array($tampil)) {
+                                                echo"
+                                                    <form action=homeweb_LihatDetailProduk.php method=GET>
+                                                        <tr>	
+                                                            <input type=hidden name=serial_num value=$r[serial_num]>
+                                                                
+                                                            <td align=center>$r[serial_num]</td>
+                                                            <td align=center>$r[nama]</td>
+                                                            <td align=center>$r[status]</td>
+                                                            <td align=center>$r[developer]</td>
+                                                            <td align=center>$r[lokasi]</td>
+                                                            <td align=center>$r[ketersediaan]</td>
+                                                            <td align=center><button type=submit class=btn-warning>Lihat Detail</button></td>
+                                                        </tr>
+                                                    </form>";
+                                            }
+                                            ?>
+                                        </tbody>
+
+
+
+
+select left(kode_pinjam,9) from requestpenelitian order by tanggal_request desc limit 1;
