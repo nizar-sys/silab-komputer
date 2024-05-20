@@ -48,7 +48,7 @@ session_start();
         <div class="center wow fadeInDown">
             <h2>Data Inventaris Alat</h2>
             <p class="lead">
-                Daftar Alat Inventaris Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                Daftar Alat Inventaris Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro 
             </p>
         </div>
         <div class="row">

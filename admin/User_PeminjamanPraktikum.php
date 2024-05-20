@@ -33,7 +33,7 @@ session_start();
                     </a>
 
                     <a class="brand" href="index.html">
-                        Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro Itenas
+                        Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro 
                     </a>
 
                     <div class="nav-collapse collapse navbar-inverse-collapse">

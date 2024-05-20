@@ -43,7 +43,7 @@ session_start();
                 <div class="center wow fadeInDown">
                     <h2>Monitoring</h2>
                     <p class="lead">
-                        Menampilkan secara langsung keadaan ruangan Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                        Menampilkan secara langsung keadaan ruangan Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro 
                     </p>
                 </div>
 

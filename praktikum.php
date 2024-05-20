@@ -46,7 +46,7 @@ session_start();
                 <div class="center wow fadeInDown">
                     <h2>Praktikum</h2>
                     <p class="lead">
-                        Halaman informasi kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                        Halaman informasi kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro 
                     </p>
                 </div>
                 <div class="row">

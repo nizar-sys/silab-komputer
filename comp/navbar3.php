@@ -19,7 +19,10 @@ $r3 = mysqli_fetch_array($h3);
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand img-fluid" href="index.php"><img src="images/logo-1.jpeg" width="50" alt="logo"></a>
+            <a class="navbar-brand img-fluid" href="index.php" style="font-size: large; padding-left: 10px;">
+                <img src="images/logo-1.jpeg" width="50" alt="logo" style="margin-right: 5px;">
+                SILAB JUTEK
+            </a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right">

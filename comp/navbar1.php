@@ -8,7 +8,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand img-fluid" href="index.php"><img src="images/logo-1.jpeg" width="50" alt="logo"></a>
+            <a class="navbar-brand img-fluid" href="index.php" style="font-size: large; padding-left: 10px;">
+                <img src="images/logo-1.jpeg" width="50" alt="logo" style="margin-right: 5px;">
+                SILAB JUTEK
+            </a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right">
@@ -33,10 +36,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Akun <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#" data-toggle="modal" data-target="#LoginModal">Login</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#LoginModal2">Login</a></li>
                         <li><a href="register.php">Registrasi</a></li>
                     </ul>
-                </li>                
+                </li>
             </ul>
         </div>
     </div><!--/.container-->
@@ -52,7 +55,7 @@
                     <h4 class="modal-title" id="myModalLabel">Login</h4>
                 </div>
                 <div hidden="true" id="pesan" class="alert alert-warning alert-dismissible" role="alert" position: fixed">
-                    
+
                 </div>
                 <div class="modal-body">
                     <div class="input-group">
@@ -73,8 +76,72 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<div class="modal fade" id="LoginModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="row">
+
+                <div class="col-sm-6 col-md-6">
+                    <a href="#" data-toggle="modal" data-target="#LoginModal" data-dismiss="modal">
+                        <div class="media services-wrap wow fadeInDown">
+                            <div class="pull-left">
+                                <img class="img-responsive" width="80" src="./images/login-mahasiswa.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Mahasiswa</h3>
+                                <p>Login <br> Mahasiswa</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <a href="./admin/">
+                        <div class="media services-wrap wow fadeInDown">
+                            <div class="pull-left">
+                                <img class="img-responsive" src="images/services/services2.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Admin</h3>
+                                <p>Login <br> Admin</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <a href="./admin/">
+                        <div class="media services-wrap wow fadeInDown">
+                            <div class="pull-left">
+                                <img class="img-responsive" width="80" src="images/login-dosen.jpg">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Dosen</h3>
+                                <p>Login <br> Dosen</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <a href="./admin/">
+                        <div class="media services-wrap wow fadeInDown">
+                            <div class="pull-left">
+                                <img class="img-responsive" width="80" src="images/login-aslab.jpg">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Aslab</h3>
+                                <p>Login Asisten <br> Laboratorium</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
 <script>
-    function warning(){
+    function warning() {
         alert('Silakan Login Terlebih Dahulu');
     }
 </script>

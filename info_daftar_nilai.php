@@ -47,7 +47,7 @@ session_start();
             <div class="center wow fadeInDown">
                 <h2>Daftar Nilai</h2>
                 <p class="lead">
-                    Nilai peserta kegiatan praktikum Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Nilai peserta kegiatan praktikum Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="container">

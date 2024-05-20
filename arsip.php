@@ -47,7 +47,7 @@ session_start();
             <div class="center wow fadeInDown">
                 <h2>Arsip & Dokumentasi</h2>
                 <p class="lead">
-                    Kumpulan file dokumen kebutuhan  Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Kumpulan file dokumen kebutuhan  Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="container">

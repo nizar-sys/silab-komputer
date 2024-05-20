@@ -73,7 +73,7 @@ session_start();
                     ?>
                 </h2>
                 <p class="lead">
-                    Pusat informasi kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Pusat informasi kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="container">

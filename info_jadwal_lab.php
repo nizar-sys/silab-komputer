@@ -47,7 +47,7 @@ session_start();
             <div class="center wow fadeInDown">
                 <h2>Jadwal Penggunaan Lab</h2>
                 <p class="lead">
-                    Rangkaian kegiatan yang dilakukan di Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Rangkaian kegiatan yang dilakukan di Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="container">

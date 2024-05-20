@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
-            &copy; 2016 <a target="_blank" href="http://itenas.ac.id/" title="">ITENAS</a>. Sistem praktikum jurusan pendidikan Teknik Elektro.
+            &copy; 2016 <a target="_blank" href="http://.ac.id/" title=""></a>. Sistem praktikum jurusan pendidikan Teknik Elektro.
         </div>
         <div class="col-sm-6">
             <ul class="pull-right">

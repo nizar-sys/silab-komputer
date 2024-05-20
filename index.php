@@ -159,7 +159,7 @@ session_start();
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Fitur</h2>
-                <p class="lead">Berikut beberapa fitur yang dapat diakses melalui website Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS</p>
+                <p class="lead">Berikut beberapa fitur yang dapat diakses melalui website Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro </p>
             </div>
 
             <div class="row">
@@ -292,7 +292,7 @@ session_start();
             <div class="center wow fadeInDown">
                 <h2>Monitoring</h2>
                 <p class="lead">
-                    Menampilkan secara langsung keadaan ruangan Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Menampilkan secara langsung keadaan ruangan Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
 
@@ -373,7 +373,7 @@ session_start();
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Praktikum</h2>
-                <p class="lead">Informasi kegiatan Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS</p>
+                <p class="lead">Informasi kegiatan Sistem praktikum jurusan pendidikan Teknik Elektro </p>
             </div>
 
             <div class="row">

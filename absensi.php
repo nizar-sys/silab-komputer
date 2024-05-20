@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
             <div class="center wow fadeInDown">
                 <h2>Absensi Praktikum</h2>
                 <p class="lead">
-                    Persentasi kehadiran mahasiswa pada kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Persentasi kehadiran mahasiswa pada kegiatan  Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="container">

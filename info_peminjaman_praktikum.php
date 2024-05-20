@@ -47,7 +47,7 @@ session_start();
             <div class="center wow fadeInDown">
                 <h2>Peminjaman Alat Praktikum</h2>
                 <p class="lead">
-                    Informasi Peminjaman Alat Untuk  Sistem praktikum jurusan pendidikan Teknik Elektro ITENAS
+                    Informasi Peminjaman Alat Untuk  Sistem praktikum jurusan pendidikan Teknik Elektro 
                 </p>
             </div>
             <div class="row">
