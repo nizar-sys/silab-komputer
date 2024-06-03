@@ -1,5 +1,10 @@
 <?php
 session_start();
+if (!isset($_SESSION['username'])) {
+    header('location:login.php');
+}elseif (isset($_SESSION['username']) && !isset($_SESSION['isAdmin'])) {
+    header('location:../index.php');
+}
 
 if (isset($_GET['update'])) {
     $id = $_GET['id'];

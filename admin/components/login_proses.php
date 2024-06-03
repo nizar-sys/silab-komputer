@@ -47,6 +47,7 @@ if ($digit == 4) { //cek digit untuk dosen
     session_start();
     $_SESSION['username'] = "Admin";
     $_SESSION['kategori'] = "admin";
+    $_SESSION['isAdmin'] = true;
     header("location:../index.php");
 }
 ?>
